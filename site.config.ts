@@ -17,7 +17,7 @@ export default siteConfig({
   description: 'Aqui vou registar um pouco das minhas ideias solo e com amigos',
 
   // social usernames (optional)
-  twitter: 'timbao',
+  twitter: 'otimbao',
   github: 'gmoura',
   linkedin: 'ogmoura',
 
