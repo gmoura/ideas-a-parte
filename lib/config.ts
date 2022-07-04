@@ -188,3 +188,7 @@ function invertPageUrlOverrides(
     }
   }, {})
 }
+
+// ----------------------------------------------------------------------------
+
+export const gaId = isDev ? null : process.env.NEXT_PUBLIC_GA_ID

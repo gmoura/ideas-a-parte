@@ -28,6 +28,9 @@ import {
   isServer,
 } from 'lib/config'
 
+// google analytics
+import Analytics, { pageview as gaPageWiew} from "lib/google-analytics"
+
 if (!isServer) {
   bootstrap()
 }
@@ -36,8 +39,8 @@ export default function App({ Component, pageProps }: AppProps) {
   const router = useRouter()
 
   React.useEffect(() => {
-    function onRouteChangeComplete() {
-  
+    function onRouteChangeComplete(url) {
+      gaPageWiew(url);
     }
 
     router.events.on('routeChangeComplete', onRouteChangeComplete)
@@ -47,5 +50,10 @@ export default function App({ Component, pageProps }: AppProps) {
     }
   }, [router.events])
 
-  return <Component {...pageProps} />
+  return (
+    <>
+      <Component {...pageProps} />
+      <Analytics />
+    </>
+  )
 }
