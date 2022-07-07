@@ -10,11 +10,11 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'Ideias a Parte',
-  domain: 'Um pouco de ideias pro seu café',
+  domain: 'ideiasaparte.com',
   author: 'Gui Moura',
 
   // open graph metadata (optional)
-  description: 'Aqui vou registar um pouco das minhas ideias solo e com amigos',
+  description: 'Um pouco de ideias pro seu café',
 
   // social usernames (optional)
   twitter: 'otimbao',
