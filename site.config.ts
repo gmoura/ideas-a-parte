@@ -14,7 +14,7 @@ export default siteConfig({
   author: 'Gui Moura',
 
   // open graph metadata (optional)
-  description: 'Um pouco de ideias pro seu café',
+  description: 'Um pouco de ideias no seu café',
 
   // social usernames (optional)
   twitter: 'otimbao',
