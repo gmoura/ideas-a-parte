@@ -30,6 +30,7 @@ export const PageHead: React.FC<
 
       <meta name='robots' content='index,follow' />
       <meta property='og:type' content='website' />
+      <meta name="author" content="Gui Moura" />
 
       {site && (
         <>
