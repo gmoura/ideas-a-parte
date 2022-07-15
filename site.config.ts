@@ -14,7 +14,7 @@ export default siteConfig({
   author: 'Gui Moura',
 
   // open graph metadata (optional)
-  description: 'Um pouco de ideias no seu café',
+  description: 'Olá! Meu nome é Gui Moura, sou apaixonado pela construção de produtos digitais, atuo como Front-end Developer  e tenho vivência com liderança técnica e mentoria.',
 
   // social usernames (optional)
   twitter: 'otimbao',
