@@ -17,7 +17,7 @@ export default siteConfig({
   description: 'Olá! Meu nome é Gui Moura, sou apaixonado pela construção de produtos digitais, atuo como Front-end Developer  e tenho vivência com liderança técnica e mentoria.',
 
   // social usernames (optional)
-  twitter: 'otimbao',
+  twitter: 'ohguimoura',
   github: 'gmoura',
   linkedin: 'ogmoura',
 
